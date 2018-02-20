@@ -1,0 +1,29 @@
+Overview
+
+We are planning to implement a recommendation system which will go through a dataset 
+containing reviews from Amazon users about the products they have used. After analysing the dataset 
+we plan to use the helpfulness, rating, product-id to find the best 5 and worst 5 products in that category.
+We intend to do this to more than one category of products and find the same in all the categories.
+
+
+Division of working
+
+We will be using Hive with Dynamo for the purpose of storing and querying data.One of us will be working on the 
+retrieval of data, setting up of environment and the other one will be responsible for insertion, querying and 
+graphical representation of the results using existing API's.
+
+
+Experiment
+
+To validate the project we will have to get all the products with full score in helpfulness and rating and then see for the correctness manually.
+
+
+Resources
+
+We will be using Amazon services to store our data and query it using the Amazon infrastructure with help of Hive. We plan to use Amazon's IaaS service as hardware.
+The datasets we plan to use are available online , we have already requested the authors of the data for their permission and in return they have asked us to quote them in the final paper.
+
+
+References
+
+Julian
